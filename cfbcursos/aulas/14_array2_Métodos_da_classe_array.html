@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array - Métodos da Classe Array</title>
+
+    <script>
+        var mochila=[];
+
+        mochila.push("Faca");               // insere o elemento no final
+        mochila.push("Corda");      
+        mochila.push("Pederneira");
+        mochila.push("Chave");
+        mochila.push("Lanterna");
+        mochila.unshift("Pedra");           // insere no início
+
+        mochila.pop();                      // remove do final
+
+        mochila.shift();                    // remove do início
+
+        mochila.splice(2,1);                    
+
+        document.write(mochila[0]+"<br>");
+        document.write(mochila[1]+"<br>");
+        document.write(mochila[2]+"<br>");
+        document.write(mochila[3]+"<br>");
+        document.write(mochila[4]+"<br>");
+        document.write(mochila[5]+"<br>");
+
+
+        //método ".push();" insere o elemento no final do array. Pela ídice.
+        //método ".unshift();" insere o elemento no início do array. Pela ídice.
+        //método ".pop();" remove o elemento no final do array. No local fica com "undefined". Pela ídice.
+        //método ".shift();" remove o elemento no início do array. Pela ídice.
+        //método ".splice();" remove um o mais elementos do meio ou de qualquer lugar posição do array. Para isso basta colocar entre ()parenteces o índice vírgula quantidade de elementos a partir desse índice
+
+    </script>
+
+</head>
+<body>
+    
+</body>
+</html>
